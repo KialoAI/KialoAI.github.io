@@ -1,0 +1,39 @@
+.logo {
+    display: inline-block;
+    height: 100%;
+}
+
+.logo>img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+/*    overflow: hidden;*/
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.h350{
+    height: 350px;
+}
+
+.h900{
+    height: 900px;
+}
+
+
+.a60 {
+    background-color:rgba(21, 21, 21, 0.5) !important;
+}
